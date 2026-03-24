@@ -7,14 +7,14 @@ import Teams from './components/Teams';
 import Users from './components/Users';
 import Workouts from './components/Workouts';
 import './App.css';
-import logo from '../docs/octofitapp-small.png';
+
 
 
 function App() {
   return (
     <Router>
       <div className="octofit-logo-left container-fluid mt-3 mb-2">
-        <img src={logo} alt="Octofit Logo" />
+        <img src={process.env.PUBLIC_URL + '/octofitapp-small.png'} alt="Octofit Logo" />
         <span className="fs-3 fw-bold text-primary">Octofit Tracker</span>
       </div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
