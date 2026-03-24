@@ -1,102 +1,39 @@
 
-body {
-  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
-  min-height: 100vh;
-}
-
 .App {
   text-align: center;
-  color: #1a237e;
 }
 
-.navbar {
-  background: linear-gradient(90deg, #1976d2 0%, #42a5f5 100%) !important;
-  box-shadow: 0 2px 8px rgba(33, 150, 243, 0.1);
-}
-.navbar-brand, .navbar-nav .nav-link {
-  color: #fff !important;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-}
-.navbar-brand img {
-  margin-right: 10px;
-}
-.navbar .btn {
-  border-radius: 20px;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-.card {
-  border-radius: 18px;
-  border: none;
-  background: #f5faff;
-}
-.card-title {
-  color: #1976d2;
-  font-weight: 700;
-  letter-spacing: 1px;
-}
-.card-text {
-  color: #37474f;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
-.table {
-  background: #e3f2fd;
-  border-radius: 10px;
-  overflow: hidden;
-}
-.table-primary th {
-  background: #1976d2 !important;
-  color: #fff;
-}
-.table-striped > tbody > tr:nth-of-type(odd) {
-  background: #f1f8ff;
-}
-.table-hover tbody tr:hover {
-  background: #bbdefb;
-}
-
-.btn-primary, .btn-outline-primary {
-  border-radius: 20px;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-}
-.btn-primary {
-  background: linear-gradient(90deg, #1976d2 0%, #42a5f5 100%);
-  border: none;
-}
-.btn-outline-primary {
-  color: #1976d2;
-  border-color: #1976d2;
-}
-.btn-outline-primary:hover {
-  background: #1976d2;
-  color: #fff;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: #1976d2;
-  font-weight: 700;
-}
-
-a, .App-link {
-  color: #1976d2;
-  text-decoration: none;
-  transition: color 0.2s;
-}
-a:hover, .App-link:hover {
-  color: #0d47a1;
-  text-decoration: underline;
-}
-
-/* Left-justified logo for app */
-.octofit-logo-left {
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  margin-bottom: 1.5rem;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
-.octofit-logo-left img {
-  height: 48px;
-  width: 48px;
-  margin-right: 16px;
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

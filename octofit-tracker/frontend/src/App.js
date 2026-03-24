@@ -13,10 +13,7 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <div className="octofit-logo-left container-fluid mt-3 mb-2">
-        <img src={process.env.PUBLIC_URL + '/octofitapp-small.png'} alt="Octofit Logo" />
-        <span className="fs-3 fw-bold text-primary">Octofit Tracker</span>
-      </div>
+      {/* Logo and custom branding removed for compatibility */}
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
         <div className="container-fluid">
           <Link className="navbar-brand d-flex align-items-center" to="/">
